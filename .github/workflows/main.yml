@@ -24,4 +24,4 @@ jobs:
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
         run: |
-          surge ./ --domain eight-stove.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+          surge ./ --domain mi-pagina-paises.surge.sh --token ${{ secrets.SURGE_TOKEN }}
